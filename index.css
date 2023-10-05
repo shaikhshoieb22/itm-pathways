@@ -5,10 +5,19 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 header {
     padding: 20px 0;
+}
+.logo {
+    max-width: 10px; /* Adjust the width as needed to make the image smaller */
+    height: auto;
 }
 
 img {
@@ -17,23 +26,19 @@ img {
 }
 
 .centered {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Center vertically on the viewport */
+    margin: 0 auto;
 }
 
 h1 {
     color: #333;
+    margin-bottom: 20px; /* Add space between h1 and button */
 }
 
 button {
     background-color: #007bff;
     color: #fff;
-    padding: 15px 30px; /* Increase button size */
+    padding: 100px 150px; /* Increase button size */
     border: none;
     cursor: pointer;
-    font-size: 18px; /* Increase button font size */
-    margin-top: 20px; /* Add space between h1 and button */
+    font-size: 45px; /* Increase button font size */
 }
