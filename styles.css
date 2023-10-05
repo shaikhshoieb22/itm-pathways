@@ -16,7 +16,7 @@ header {
     padding: 20px 0;
 }
 .logo {
-    max-width: 10px; /* Adjust the width as needed to make the image smaller */
+    max-width: 750px; /* Adjust the width as needed to make the image smaller */
     height: auto;
 }
 
@@ -26,7 +26,9 @@ img {
 }
 
 .centered {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -35,10 +37,12 @@ h1 {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #A4252E;
     color: #fff;
-    padding: 100px 150px; /* Increase button size */
+    padding: 50px 75px; /* Increase button size */
     border: none;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 45px; /* Increase button font size */
+    
 }
